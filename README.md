@@ -15,10 +15,11 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 php bin/magento c:c
 
+# Admin view
 
-![Admin Configuration](https://user-images.githubusercontent.com/90965189/148248355-0a0a859c-1afb-46ef-a381-da423413b9b6.png)
+![Admin Configuration](https://user-images.githubusercontent.com/90965189/148249172-4df92758-bfb6-44c0-91b4-4ff9d8c29bd5.png)
 
-
+# Frontend view
 
 ![Magento 2 Get Data on Frontend from System XML](https://user-images.githubusercontent.com/90965189/148248283-2450d364-40fd-4321-9c84-78c314405fa0.png)
 
