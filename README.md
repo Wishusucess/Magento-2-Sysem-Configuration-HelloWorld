@@ -1,4 +1,4 @@
-# Magento-2-Sysem-Configuration-HelloWorld
+# Magento-2-System-Configuration-HelloWorld
 Get Magento 2 System Configuration Fields Data on Frontend or phtml File
 
 # How to Get System XML data in phtml file or frontend
