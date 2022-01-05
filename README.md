@@ -11,9 +11,11 @@ Download this code and paste into app/code/Wishusucess/SystemHelloworld director
 
 Then run below command
 
-php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy -f
-php bin/magento c:c
+- php bin/magento setup:upgrade
+
+- php bin/magento setup:static-content:deploy -f
+
+- php bin/magento c:c
 
 # Admin view
 ![Magento 2 Create Admin Configuration](https://user-images.githubusercontent.com/90965189/148249421-847245b5-7d6c-4cf0-bad3-92e3ec769b7d.png)
