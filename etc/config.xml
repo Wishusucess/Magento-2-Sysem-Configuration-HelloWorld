@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <wishusucess_systemhelloworld>
+            <general>
+                <enable>0</enable>
+                <text_title>Wishusucess System Config Hello World</text_title>
+                <text_description>Wishusucess System Configuration Hello World Module</text_description>
+            </general>
+        </wishusucess_systemhelloworld>
+    </default>
+</config>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @Developer: Hemant Kumar Singh Magento 2x Developer
+ * @Website:   http://www.wishusucess.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="wus" translate="label" sortOrder="10">
+            <label>Wishusucess</label>
+        </tab>
+        <section id="wishusucess_systemhelloworld" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Hello World</label>
+            <tab>wus</tab>
+            <resource>Wishusucess_SystemHelloworld::wishusucess_systemhelloworld</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Module Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="text_title" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Title</label>
+                    <comment>This title text.</comment>
+                </field>
+                <field id="text_description" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Description</label>
+                    <comment>This is description text.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
