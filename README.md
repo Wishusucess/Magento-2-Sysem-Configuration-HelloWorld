@@ -16,8 +16,9 @@ php bin/magento setup:static-content:deploy -f
 php bin/magento c:c
 
 # Admin view
+![Magento 2 Create Admin Configuration](https://user-images.githubusercontent.com/90965189/148249421-847245b5-7d6c-4cf0-bad3-92e3ec769b7d.png)
 
-![Admin Configuration](https://user-images.githubusercontent.com/90965189/148249172-4df92758-bfb6-44c0-91b4-4ff9d8c29bd5.png)
+
 
 # Frontend view
 
